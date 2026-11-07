@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "handbook-365-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/Handbook365/Handbook365WebPart.js",
+          "manifest": "./src/webparts/Handbook365/Handbook365WebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HandbookWebPartStrings": "lib/loc/{locale}.js",
+    "PropertyControlStrings": "./node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

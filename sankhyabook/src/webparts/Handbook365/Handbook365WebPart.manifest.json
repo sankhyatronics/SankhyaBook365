@@ -1,0 +1,36 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "e62bd41f-ed37-4450-b0c1-7443b256e4c2",
+  "alias": "SankhyaBook365",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "supportsFullBleed": true,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "SankhyaBook 365"
+      },
+      "title": {
+        "default": "SankhyaBook 365"
+      },
+      "description": {
+        "default": "SankhyaBook 365 is a modern knowledge management and collaboration solution built on top of Microsoft 365 and SharePoint Online. It enables organizations to create, organize, and manage structured knowledge bases, policies, guides, and team documentation in an intuitive way. Unlike traditional document libraries, SankhyaBook 365 provides a visual, page-based experience with powerful hierarchy management, drag-and-drop organization, and navigation controls — making it easier for teams to keep knowledge structured and accessible."
+      },
+      "iconImageUrl": "data:image/png;base64,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",
+      "properties": {
+        "linkTarget": "_blank",
+        "pageSize": 100,
+        "LeftMenuSize": 260,
+        "showTopMenu": true
+      }
+    }
+  ]
+}

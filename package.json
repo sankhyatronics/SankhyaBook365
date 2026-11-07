@@ -1,0 +1,21 @@
+{
+  "name": "SankhyaBook-workspace",
+  "author": "Ajit",
+  "private": true,
+  "packageManager": "pnpm@11.6.0",
+  "version": "1.0.8",
+  "engines": {
+    "node": "^22.14.0",
+    "npm": "^11.4.2"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.9"
+  },
+  "scripts": {
+    "build": "pnpm  update-version && pnpm -r --workspace-concurrency=1 build",
+    "lint": "pnpm -r lint",
+    "test": "pnpm -r test",
+    "dev": "pnpm -r dev",
+    "update-version": "node scripts/version-manager.js"
+  }
+}

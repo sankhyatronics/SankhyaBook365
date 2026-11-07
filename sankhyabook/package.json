@@ -1,0 +1,49 @@
+{
+  "name": "@sankhyatronics/sankhyabook",
+  "version": "1.0.7",
+  "private": true,
+  "engines": {
+    "node": ">=22.14.0 < 24.0.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "heft test --clean --production && heft package-solution --production",
+    "start": "heft start --clean",
+    "clean": "heft clean",
+    "eject-webpack": "heft eject-webpack"
+  },
+  "dependencies": {
+    "tslib": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "@fluentui/react": "catalog:",
+    "@microsoft/sp-core-library": "catalog:",
+    "@microsoft/sp-component-base": "catalog:",
+    "@microsoft/sp-property-pane": "catalog:",
+    "@microsoft/sp-webpart-base": "catalog:",
+    "@microsoft/sp-lodash-subset": "catalog:",
+    "@microsoft/sp-http": "catalog:",
+    "@microsoft/sp-office-ui-fabric-core": "catalog:",
+    "@sankhyatronics/airavat": "workspace:*",
+    "@sankhyatronics/apiclient": "workspace:*"
+  },
+  "devDependencies": {
+    "@rushstack/eslint-config": "catalog:",
+    "@microsoft/eslint-plugin-spfx": "catalog:",
+    "@microsoft/eslint-config-spfx": "catalog:",
+    "@microsoft/spfx-web-build-rig": "catalog:",
+    "@microsoft/spfx-heft-plugins": "catalog:",
+    "@rushstack/heft": "catalog:",
+    "@types/heft-jest": "catalog:",
+    "@types/webpack-env": "catalog:",
+    "@typescript-eslint/parser": "catalog:",
+    "css-loader": "catalog:",
+    "eslint": "catalog:",
+    "typescript": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "@microsoft/sp-module-interfaces": "catalog:",
+    "@pnp/spfx-property-controls": "catalog:"
+  }
+}

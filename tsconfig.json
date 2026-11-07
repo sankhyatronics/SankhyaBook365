@@ -1,0 +1,9 @@
+// A 'solution' tsconfig, used to support Typescript Project References
+{
+  "files": [],
+  "references": [
+    { "path": "apiclient" }, 
+    { "path": "airavat" },
+
+  ]
+}

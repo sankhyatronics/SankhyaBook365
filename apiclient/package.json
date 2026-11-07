@@ -1,0 +1,32 @@
+{
+  "name": "@sankhyatronics/apiclient",
+  "private": true,
+  "version": "1.0.7",
+  "description": "Microsoft Graph client used by the Handbook 365 SPFx web part",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --sourcemap --clean",
+    "dev": "tsup src/index.ts --watch --format esm,cjs --dts"
+  },
+  "dependencies": {
+    "axios": "catalog:"
+  },
+  "devDependencies": {
+    "tsup": "catalog:",
+    "typescript": "catalog:"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "SankhyaBook 365",
+    "id": "e41b62b0-2127-4dd0-8144-aa0731566d70",
+    "supportedLocales": [
+      "en-US",
+      "da-DK",
+      "nl-NL",
+      "fr-FR",
+      "de-DE",
+      "hi-IN",
+      "pl-PL",
+      "es-ES"
+    ],
+    "iconPath": "logo96.png",
+    "version": "1.0.7.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Sankhyatronics Solutions Private Limited",
+      "websiteUrl": "https://sankhyabook365.sankhyatronics.com/",
+      "privacyUrl": "https://sankhyabook365.sankhyatronics.com/docs/legal/privacy-policy",
+      "termsOfUseUrl": "https://sankhyabook365.sankhyatronics.com/docs/legal/terms-of-use",
+      "mpnId": "6882434"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SankhyaBook 365 is a modern knowledge management solution for Microsoft 365 that centralizes, organizes, and streamlines access to policies, processes, and team documentation."
+      },
+      "longDescription": {
+        "default": "SankhyaBook 365: Intelligent Knowledge Management for Microsoft 365 \r\n SankhyaBook 365 is a modern knowledge management and collaboration platform built natively on Microsoft 365 and SharePoint Online. It transforms how organizations create, organize, and access structured knowledge bases, policies, procedures, and team documentation through an intuitive, visual interface.\r\n Moving beyond traditional document libraries, SankhyaBook 365 delivers a page-centric experience with advanced hierarchy management, drag-and-drop organization, and intelligent navigation controls. This empowers teams to maintain well-structured, easily accessible knowledge ecosystems that drive productivity and consistency.\r\n Technical Overview\n Built on SPFx: A pure SharePoint Framework solution\n Zero External Dependencies: No third-party hosting required\n Cost-Free Licensing: Completely free for all environments, including enterprise deployments\r\n Core Capabilities\n 1. Intelligent Page Relationships\n Establish parent-child hierarchies between pages to create intuitive, logical navigation structures that mirror your organizational knowledge.\n 2. Unified Knowledge Access\n Aggregate and view content from multiple SharePoint sites within a single, consolidated interface, eliminating information silos.\n 3. Dynamic Hierarchical Views\n Navigate complex knowledge structures through flexible, multi-level hierarchical displays that adapt to your content organization.\n 4. Custom View Creation\n Design and save personalized views tailored to different teams, roles, or projects for optimized information retrieval.\n 5. Flexible Hierarchy Management\n Easily create, modify, and reorganize knowledge structures through intuitive drag-and-drop controls and relationship mapping.\n 6. Optimized Performance\n Experience lightning-fast content delivery powered by intelligent local caching mechanisms that reduce latency and enhance user experience.\r\n Key Value Proposition: SankhyaBook 365 brings structured wiki-like functionality to SharePoint without complex implementations, enabling organizations to centralize knowledge while maintaining the security, compliance, and integration benefits of the Microsoft 365 ecosystem."
+      },
+      "screenshotPaths": [
+        "https://sankhyabook365.sankhyatronics.com/assets/pic1.png",
+        "https://sankhyabook365.sankhyatronics.com/assets/pic2.png",
+        "https://sankhyabook365.sankhyatronics.com/assets/pic3.png",
+        "https://sankhyabook365.sankhyatronics.com/assets/pic4.png",
+        "https://sankhyabook365.sankhyatronics.com/assets/pic5.png"
+      ],
+      "videoUrl": "",
+      "categories": [
+        "Content management",
+        "Collaboration"
+      ]
+    },
+    "features": [
+      {
+        "title": "SankhyaBook 365",
+        "description": "SankhyaBook 365 is a modern knowledge management solution for Microsoft 365 that centralizes, organizes, and streamlines access to policies, processes, and team documentation.",
+        "id": "82ebed83-ecd0-4c77-9817-89ca2ea2641e",
+        "version": "1.0.7.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sankhyatronics-handbook-365.sppkg"
+  }
+}

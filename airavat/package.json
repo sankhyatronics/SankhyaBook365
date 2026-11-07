@@ -1,0 +1,58 @@
+{
+  "name": "@sankhyatronics/airavat",
+  "private": true,
+  "description": "React UI for the Handbook 365 SPFx web part (React 18)",
+  "version": "1.0.7",
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.umd.js"
+    },
+    "./styles": "./dist/style.css"
+  },
+  "files": [
+    "/dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "dependencies": {
+    "@tanstack/query-sync-storage-persister": "catalog:",
+    "@tanstack/react-query": "catalog:",
+    "@tanstack/react-query-persist-client": "catalog:",
+    "react-split-pane": "catalog:"
+  },
+  "devDependencies": {
+    "@azure/msal-browser": "catalog:",
+    "@azure/msal-react": "catalog:",
+    "@eslint/js": "catalog:",
+    "@fluentui/react-components": "catalog:",
+    "@fluentui/react-icons": "catalog:",
+    "@sankhyatronics/apiclient": "workspace:*",
+    "@storybook/react-vite": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "@vitejs/plugin-react": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-react-hooks": "catalog:",
+    "eslint-plugin-react-refresh": "catalog:",
+    "globals": "catalog:",
+    "storybook": "catalog:",
+    "typescript": "catalog:",
+    "typescript-eslint": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-dts": "catalog:"
+  }
+}
